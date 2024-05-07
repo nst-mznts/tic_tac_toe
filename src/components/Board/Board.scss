@@ -1,0 +1,24 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+
+.board {
+    @include flex(column, space-between, center);
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.size3 {
+    width: $board-size-3x3;
+    height: $board-size-3x3;
+}
+
+.size4 {
+    width: $board-size-4x4;
+    height: $board-size-4x4;
+}
+
+.size5 {
+    width: $board-size-5x5;
+    height: $board-size-5x5;
+}

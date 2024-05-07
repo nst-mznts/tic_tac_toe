@@ -1,0 +1,24 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/buttons';
+@import '../../sass/symbols';
+
+.header {
+    @include flex(row, space-between, center);
+    width: $board-size-3x3;
+}
+
+.header-turn {
+    @include flex(row, center, center);
+    column-gap: 6px;
+    padding: 2px 12px;
+    color: $color-light;
+    height: 42px;
+    width: 130px;
+}
+
+.return-icon {
+    transform: scale(-1, 1);
+    rotate: 45deg;
+}

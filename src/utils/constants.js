@@ -1,0 +1,11 @@
+export const SCREEN_TYPES = {
+  GAME_VS_CPU: 'GAME_VS_CPU',
+  GAME_VS_HUMAN: 'GAME_VS_HUMAN',
+  START_PAGE: 'START_PAGE',
+  SETTINGS: 'SETTINGS',
+};
+
+export const GAME_SYMBOLS = {
+  SYMBOL_X: 'X',
+  SYMBOL_O: 'O',
+};

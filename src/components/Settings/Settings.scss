@@ -1,0 +1,36 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/wrappers';
+@import '../../sass/buttons';
+
+.start-content {
+    width: $board-size-3x3;
+    @include flex(column, center, center);
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.difficulty-level-wrapper, .save-score-wrapper {
+    @extend %width100;
+    @include flex(column, center, center);
+    row-gap: 6px;
+}
+
+.difficulty-level-list {
+    @extend %width100;
+    @include flex(row, space-between, center);
+    column-gap: 6px;
+    row-gap: 6px;
+    list-style-type: none;
+    & li {
+        background-color: $color-light;
+        &:hover {
+            background-color: $color-secondary;
+        }
+    } 
+}
+
+li.active {
+    background-color: $color-secondary;
+}

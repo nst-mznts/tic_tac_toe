@@ -1,0 +1,15 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/symbols';
+
+.logo {
+    @include flex(row, center, center);
+    column-gap: 4px;
+    height: 42px;
+}
+
+.symbol-font {
+    @extend %font-Indie-Flower;
+    @include font(normal, $font-weight-bold, 4rem);
+}

@@ -1,0 +1,30 @@
+@import './abstract/constants';
+@import './abstract/mixins';
+@import './abstract/placeholders';
+
+.button {
+    border: none;
+    @extend %border-radius;
+    padding: 12px 10px;
+    @extend %pointer;
+    @extend %button-shadow;
+    @include flex(row, center, center);
+    transition: all .2s;
+}
+
+.rectangular-button {
+    @extend %width100;
+    height: 50px;
+    @extend %font-Roboto;
+    @include font(normal, $font-weight-middle, $font-size-standart);
+    color: $color-background;
+}
+
+.square-button {
+    width: 42px;
+    height: 42px;
+}
+
+.gray-button {
+    background-color: $color-light;
+}

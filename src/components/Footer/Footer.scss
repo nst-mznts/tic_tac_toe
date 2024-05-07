@@ -1,0 +1,33 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/symbols';
+
+.score {
+    @include flex(row, space-between, center);
+    width: $board-size-3x3;
+}
+
+.score-item {
+    width: 100px;
+    height: 50px;
+    @extend %border-radius;
+    color: $color-background;
+    @include flex(column, center, center);
+}
+
+.score-number {
+    color: $color-background;
+}
+
+.player-x {
+    background-color: $color-primary;
+}
+
+.play-times {
+    background-color: $color-light;
+}
+
+.player-o {
+    background-color: $color-secondary;
+}

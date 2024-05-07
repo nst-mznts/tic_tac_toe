@@ -1,0 +1,33 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/buttons';
+@import '../../sass/wrappers';
+@import '../../sass/symbols';
+
+.player-symbol {
+    width: $board-size-3x3;
+    padding: 20px 10px;
+    @include flex(column, center, center);
+    row-gap: 20px;
+    & h4 {
+        color: $color-light;
+    }
+}
+
+.start-header {
+    width: $board-size-3x3;
+    @include flex(row, space-between, center);
+}
+
+.start-page-buttons {
+    width: $board-size-3x3;
+    @include flex(column, center, center);
+    row-gap: 10px;
+    & .button-vs-cpu {
+        background-color: $color-secondary;
+    };
+    & .button-vs-human {
+        background-color: $color-primary;
+    }
+}

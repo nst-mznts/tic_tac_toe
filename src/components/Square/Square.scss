@@ -1,0 +1,14 @@
+@import '../../sass/abstract/constants';
+@import '../../sass/abstract/mixins';
+@import '../../sass/abstract/placeholders';
+@import '../../sass/wrappers';
+
+.square {
+    width: 100px;
+    height: 100px;
+    @extend %pointer;
+    @include flex(row, center, center);
+    border: none;
+    @extend %font-Indie-Flower;
+    @include font(normal, $font-weight-bold, 9rem);
+}

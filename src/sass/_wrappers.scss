@@ -1,0 +1,18 @@
+@import './abstract/constants';
+@import './abstract/mixins';
+@import './abstract/placeholders';
+
+.wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    @include flex(column, center, center);
+    row-gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark {
+    @extend %border-radius;
+    background-color: $color-square;
+    @extend %shadow;
+}

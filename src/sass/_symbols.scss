@@ -1,0 +1,16 @@
+@import './abstract/constants';
+@import './abstract/mixins';
+@import './abstract/placeholders';
+
+.X {
+  color: $color-primary;
+}
+
+.O {
+  color: $color-secondary;
+}
+
+.title {
+  @extend %font-Roboto;
+  @include font(normal, $font-weight-middle, $font-size-standart);
+}
