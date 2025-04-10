@@ -37,11 +37,9 @@ function Settings({ onReturn, openModalWindow, closeModalWindow }) {
           <h4 className="title">DIFFICULTY LEVEL</h4>
           <ul
             className="difficulty-level-list"
-            onClick={(event) => makeSettingButtonlActive(
-              event.target.id,
-              difficultyLevel,
-              selectDifficultyLevel,
-            )}
+            onClick={(event) =>
+              makeSettingButtonlActive(event.target.id, difficultyLevel, selectDifficultyLevel)
+            }
           >
             {difficultyLevel.map((level) => (
               <li
@@ -58,11 +56,9 @@ function Settings({ onReturn, openModalWindow, closeModalWindow }) {
           <h4 className="title">BOARD SIZE</h4>
           <ul
             className="difficulty-level-list"
-            onClick={(event) => makeSettingButtonlActive(
-              event.target.id,
-              boardSize,
-              selectBoardSize,
-            )}
+            onClick={(event) =>
+              makeSettingButtonlActive(event.target.id, boardSize, selectBoardSize)
+            }
           >
             {boardSize.map((size) => (
               <li

@@ -13,13 +13,8 @@ function App() {
   const closeModalWindow = () => setIsModalWindowClosed(false);
   const openModalWindow = () => setIsModalWindowClosed(true);
   const { score, isSavedScore, resetScore } = useGameScore(closeModalWindow);
-  const {
-    screenType,
-    startGameVsCpu,
-    startGameVsHuman,
-    openSettingsPage,
-    returnToMenu,
-  } = useScreenType(isSavedScore, resetScore);
+  const { screenType, startGameVsCpu, startGameVsHuman, openSettingsPage, returnToMenu } =
+    useScreenType(isSavedScore, resetScore);
 
   if (isSavedScore) {
     saveToLocalStorage('score', score);

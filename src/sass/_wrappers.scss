@@ -16,3 +16,9 @@
     background-color: $color-square;
     @extend %shadow;
 }
+
+@media (max-width: 640px) {
+    .wrapper {
+        row-gap: 10px;
+    }
+}

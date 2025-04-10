@@ -22,3 +22,14 @@
     width: $board-size-5x5;
     height: $board-size-5x5;
 }
+
+@media (max-width: 1024px) {
+    .board {
+        gap: 6px;
+    }
+
+    .size3, .size4, .size5 {
+        width: 300px;
+        height: 300px;
+    }
+}

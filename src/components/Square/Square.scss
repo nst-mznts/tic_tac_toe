@@ -12,3 +12,34 @@
     @extend %font-Indie-Flower;
     @include font(normal, $font-weight-bold, 9rem);
 }
+
+.size4 .square {
+    width: 78px;
+    height: 78px;
+    font-size: 7rem;
+}
+
+.size5 .square {
+    width: 68px;
+    height: 68px;
+    font-size: 6rem;
+}
+
+@media (max-width: 1024px) {
+    .square {
+        width: 90px;
+        height: 90px;
+    }
+
+    .size4 .square {
+        width: 70px;
+        height: 70px;
+        font-size: 7rem;
+    }
+
+    .size5 .square {
+        width: 55px;
+        height: 55px;
+        font-size: 6rem;
+    }
+}

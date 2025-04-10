@@ -31,3 +31,9 @@
         background-color: $color-primary;
     }
 }
+
+@media (max-width: 1024px) {
+    .start-header, .player-symbol, .start-page-buttons {
+        width: 300px;
+    }
+}

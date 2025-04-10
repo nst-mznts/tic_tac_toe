@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🎮 Tic Tac Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a game against AI with three difficulty levels and three playing field sizes. There is also a game mode against another person.
+
+## Screenshots
+
+![project image large screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Large.png)
+
+![project image medium screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Medium.png)
+
+![project image small screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Small.png)
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+## Features
+
+- **Difficulty Levels**: The game has 3 levels of difficulty: Easy, Medium, and Hard.
+- **Board Size**: You can choose the size of the game board: 3x3, 4x4, or 5x5.
+- **Opponent Choice**: You can play against the AI or with another person.
+- **Score Saving**: The game score is saved in localStorage, so it stays even if you change settings or reopen the app.
+- **Hard Level AI**: On the Hard level, the AI uses a minimax algorithm, making it very difficult to beat.
+
+## Requirements
+
+Before you can run the project, make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (Recommended version: v14 or higher)
+- [npm](https://www.npmjs.com/) (Comes with Node.js)
+
+Once you have Node.js and npm installed, you can set up the project.
+
+## Setup
+
+Clone the repository
+
+```bash
+ git clone https://github.com/nst-mznts/tic_tac_toe.git -b dev
+ cd tic_tac_toe
+```
+
+## Install the project dependencies
+
+Run the following command to install the necessary packages listed in package.json:
+
+```bash
+npm install
+```
+
+# Run the project
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+npm run start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This command runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

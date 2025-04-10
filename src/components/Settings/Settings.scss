@@ -34,3 +34,9 @@
 li.active {
     background-color: $color-secondary;
 }
+
+@media (max-width: 1024px) {
+    .start-content {
+        width: 300px;
+    }
+}
