@@ -6,11 +6,11 @@ This is a game against AI with three difficulty levels and three playing field s
 
 ## Screenshots
 
-![project image large screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Large.png)
+![project image large screen](https://github.com/nst-mznts/tic_tac_toe/blob/dev/public/Tic_Tac_Toe_Large.png)
 
-![project image medium screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Medium.png)
+![project image medium screen](https://github.com/nst-mznts/tic_tac_toe/blob/dev/public/Tic_Tac_Toe_Medium.png)
 
-![project image small screen](https://github.com/nst-mznts/my_notes/blob/dev/public/Tic_Tac_Toe_Small.png)
+![project image small screen](https://github.com/nst-mznts/tic_tac_toe/blob/dev/public/Tic_Tac_Toe_Small.png)
 
 ## Tech Stack
 
